@@ -1,0 +1,66 @@
+@import "../variable.css";
+
+body {
+  font-family: var(--ff-montserrat);
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .left,
+nav .middle,
+nav .right {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+nav .left {
+  background-color: var(--gri-8);
+  box-shadow: var(--acik-gölge);
+  border: 1px solid var(--siyah);
+  position: sticky;
+}
+
+nav .right {
+  background-color: var(--mavi-7);
+  box-shadow: var(--acik-gölge);
+  font-size: 30px;
+  border: 1px solid var(--siyah);
+  text-align: end;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.right i {
+  color: var(--siyah);
+  font-size: 24px;
+}
+
+.right i:hover {
+  font-size: 48px;
+}
+nav .middle {
+  background-color: var(--gri-10);
+  box-shadow: var(--koyu-gölge);
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav .middle a {
+  text-decoration: none;
+  color: var(--siyah);
+  padding: 16px;
+  display: inline-block;
+
+  transition: background-color 5s, color 2s;
+}
+
+.middle a:hover {
+  background-color: var(--mavi-7);
+  color: var(--beyaz);
+  border-radius: 15px;
+}

@@ -1,0 +1,46 @@
+@import "../variable.css";
+
+.text {
+  background-color: rgb(209, 65, 65);
+  display: inline-block;
+  text-align: center;
+  width: 15vw;
+  height: 15vh;
+  margin: 3rem;
+  padding-top: 1.5rem;
+}
+
+.text1 {
+  color: var(--beyaz);
+  background-color: var(--mavi-9);
+  text-shadow: 2px 2px 1px var(--gri-8);
+}
+
+.text2 {
+    color: var(--koyu-gölge);
+    background-color: var(--siyah);
+    text-shadow: 2px 2px 1px var(--gri-2);
+}
+
+.text3 {
+    background-color: var(--beyaz);
+    color: var(--siyah);
+    text-shadow: 3px 3px 3px var(--beyaz), 5px 6px 3px var(--gri-8);
+}
+
+.text4 {
+    background-color: var(--bisque);
+    color: var(--beyaz);
+    text-shadow: 0px 3px 0px var(--gri-8);
+}
+
+.text5 {
+    background-color: var(--koyu-yesil);
+    text-shadow: 0px -1px 20px var(--beyaz), 2px 4px 5px var(--gri-8) ;
+}
+
+.text6 {
+    background-color: var(--mavi-6);
+    color: var(--beyaz);
+    text-shadow: -6px 3px  var(--mavi-8), -10px 6px var(--mavi-9), -14px 9px var(--mavi-10) ;
+}
